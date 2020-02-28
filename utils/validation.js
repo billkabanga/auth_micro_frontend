@@ -7,7 +7,7 @@ const authValidation = yup.object().shape({
     .required('Please enter your name'),
   
     email: yup.string()
-      .email('Please enter a valid email')
+      .email('Please enter a valid email ')
       .required('Please enter an email'),
 
     password: yup.string()
